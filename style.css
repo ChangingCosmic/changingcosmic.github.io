@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+}
+
+
+
+button {
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  border-radius: 12px;
+  margin: 150px;
+  border: none;
+  
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.buttonClass {
+  display: inline;
+  height: 100px;
+  overflow: hidden;
+  max-height: window-height;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.yesButton img, .noButton img {
+  width: auto;
+}
+
+#yesIMGID {
+  position: absolute;
+  width: 210px;
+  height: 140px;
+  flex: center;
+}
+.hide{
+  display: none;
+}
+
+.show {
+  display: initial;
+}
+
+#noIMGid {
+  position: absolute;
+  width: 210px;
+  height: 140px;
+}
+
+.noBtnClass img {
+  display: solid;
+  width: auto;
+}
+
+#dateMeImg {
+  padding-top: 5%;
+  width: 850px;
+  height: 300x;
+  object-fit: fill;
+}
+
+.main {
+  max-width: window-width;
+  position: relative;
+  display: grid;
+}
