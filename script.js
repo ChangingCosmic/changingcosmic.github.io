@@ -85,6 +85,6 @@ function moveNoButton() {
 }
 
 function yesButtonRedirect() {
-  window.location.href = "https://www.youtube.com/watch?v=qNvK7Jwqz_A&ab_channel=FuzziASMR&t=1m50s";
+  window.location.href = "https://www.youtube.com/watch?v=tQ0yjYUFKAE&ab_channel=JustinBieberVEVO&t=42s";
 }
 
