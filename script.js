@@ -30,7 +30,7 @@ function moveNoButton() {
   }
   else if (counter < 10) { //stage 2 saturates
     if (counter >= 4 && counter <= 7) {
-      button.src = "img/noSaturation" + (counter - 3) + ".png";
+      button.src = "img/noSaturation" + (counter - 3) + ".PNG";
     }
     
     button.style.left = i + "px";
@@ -41,31 +41,31 @@ function moveNoButton() {
 
     switch (counter) {
       case 8:
-        document.body.style.background = "url('img/background1.png')";
-        button.src = "img/noSaturation" + (counter - 1) + ".png";
+        document.body.style.background = "url('img/background1.PNG')";
+        button.src = "img/noSaturation" + (counter - 1) + ".PNG";
         break;
       case 11:
-        document.body.style.background = "url('img/background2.png')";
+        document.body.style.background = "url('img/background2.PNG')";
         break;
       case 12:
-        document.body.style.background = "url('img/background3.png')";
-        button.src = "img/noSaturation" + (counter - 1) + ".png";
-        document.querySelector("#dateMeImg").src = "img/youWillDateMe.png";
+        document.body.style.background = "url('img/background3.PNG')";
+        button.src = "img/noSaturation" + (counter - 1) + ".PNG";
+        document.querySelector("#dateMeImg").src = "img/youWillDateMe.PNG";
         break;
       case 15:
-        document.body.style.background = "url('img/background4.png')";
+        document.body.style.background = "url('img/background4.PNG')";
         break;
       case 16:
-        document.body.style.background = "url('img/background5.png')";
-        button.src = "img/noSaturation" + (counter - 1) + ".png";
+        document.body.style.background = "url('img/background5.PNG')";
+        button.src = "img/noSaturation" + (counter - 1) + ".PNG";
         break;
       case 19:
-        document.body.style.background = "url('img/background6.png')";
+        document.body.style.background = "url('img/background6.PNG')";
         break;
       case 22:
-        document.body.style.background = "url('img/background.png')";
-        button.src = "img/noButton.png";
-        document.querySelector("#dateMeImg").src = "img/pwettyPwease.png"
+        document.body.style.background = "url('img/background.PNG')";
+        button.src = "img/noButton.PNG";
+        document.querySelector("#dateMeImg").src = "img/pwettyPwease.PNG"
         break;
     }
     
@@ -74,7 +74,7 @@ function moveNoButton() {
     
   }
   else {
-    document.body.style.background = "url('img/background6.png')";
+    document.body.style.background = "url('img/background6.PNG')";
     var element = document.querySelector("#dateMeImg");
     element.classList.replace("borderQuestion", "hide");
 
